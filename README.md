@@ -1,7 +1,8 @@
 # Aqua-Illumination-BLE-functions
-translating ble from Aqua Illumination peripherals 
 
-Peripheral 1: 3648
+BLE output from AI peripheralds:
+
+Peripheral 1: 3648 (AI Blade 12" Grow or Glow)
 
 	•	UUID: 6EB42101-6B2F-5049-D683-9421F42A3648
 	•	Manufacturer Data:
@@ -13,8 +14,31 @@ Peripheral 1: 3648
 	•	0x01FF0102-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Notify
 	•	0x01FF0103-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Write without Response
 	•	0x01FF0104-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Write without Response
+	•	0x180A (light channel read info?)
+ 		•	0x2A29: Read
+   		•	0x2A24: Read
+   		•	0x2A25: Read
+   		•	0x2A26: Read
 
-Peripheral 2: 31EE
+Peripheral 2: CC8 (AI Blade 12" Glow or Grow) 
+
+	•	UUID: 59ED3520-0DA9-927B-83AB-CFEB96750CC8
+	•	Manufacturer Data:
+	•	0x0101: 0x06010101000000A83D384837413303032 453452424337
+	•	Service UUIDs: 01FF0100-BA5E-F4EE-5CA1-EB1E5E4B1CE0
+	•	Characteristics:
+	•	0x01FF0100-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Notify
+	•	0x01FF0101-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Notify
+	•	0x01FF0102-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Notify
+	•	0x01FF0103-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Write without Response
+	•	0x01FF0104-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Write without Response
+	•	0x180A (light channel read info?)
+ 		•	0x2A29: Read
+   		•	0x2A24: Read
+   		•	0x2A25: Read
+   		•	0x2A26: Read
+
+Peripheral 3: 31EE (AI Nero 3 or Axis 20)
 
 	•	UUID: 9D234B81-463A-8ECE-84F0-ED554AA4311E
 	•	Manufacturer Data:
@@ -27,20 +51,7 @@ Peripheral 2: 31EE
 	•	0x01FF0103-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Write without Response
 	•	0x01FF0104-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Write without Response
 
-Peripheral 3: CC8
-
-	•	UUID: 59ED3520-0DA9-927B-83AB-CFEB96750CC8
-	•	Manufacturer Data:
-	•	0x0101: 0x06010101000000A83D384837413303032 453452424337
-	•	Service UUIDs: 01FF0100-BA5E-F4EE-5CA1-EB1E5E4B1CE0
-	•	Characteristics:
-	•	0x01FF0100-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Notify
-	•	0x01FF0101-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Notify
-	•	0x01FF0102-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Notify
-	•	0x01FF0103-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Write without Response
-	•	0x01FF0104-BA5E-F4EE-5CA1-EB1E5E4B1CE0: Write without Response
-
-Peripheral 4: EEE
+Peripheral 4: EEE (AI Axis 20 or Nero 3)
 
 	•	UUID: D1215FD3-1327-F89A-AC62-EF87212B8EEE
 	•	Manufacturer Data:
